@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Мій Фронтенд</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+  <h1>Список продуктів</h1>
+
+  <table id="productsTable">
+    <thead>
+      <tr><th>ID</th><th>Назва</th><th>Ціна</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
+  <button id="RemoveBtn" style="margin: auto 20px;" type="submit">Видалення</button>
+  <button id="ChangeBtn" style="margin: auto 20px;" type="submit">Змінення</button>
+    <h2>Додати новий продукт</h2>
+  <form id="addProductForm">
+    <label>Назва: <input type="text" id="productName" required /></label><br/>
+    <label>Ціна: <input type="number" id="productPrice" min="0" step="0.01" required /></label><br/>
+    <button id="add" value="add" type="submit">Додати</button>
+</form>
+
+  <p id="message"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
