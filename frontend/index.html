@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Мій Фронтенд</title>
-  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <title>Мій Фронтенд</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  
-  <h1>Список продуктів</h1>
 
-  <table id="productsTable">
-    <thead>
-      <tr><th>ID</th><th>Назва</th><th>Ціна</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-  
-  <button id="RemoveBtn" style="margin: auto 20px;" type="submit">Видалення</button>
-  <button id="ChangeBtn" style="margin: auto 20px;" type="submit">Змінення</button>
+   <div class="container">
+    <h1>Список продуктів</h1>
+    <div class="balance-container">
+        <label>Balance:</label>
+        <p id="BalanceP"></p>
+         <label>Введіть баланс:
+                <input type="number" id="balanceInput" min="0" step="10" required />
+                <button id="setBalanceBtn">Встановити баланс</button>
+            </label>
+    </div>
+
+    <div class="table-container">
+        <table id="productsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Назва</th>
+                    <th>Ціна</th>
+                    
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="button-group">
+        <button id="RemoveBtn">Видалення</button>
+        <button id="ChangeBtn">Змінення</button>
+        <button id="AddItemsBtn">Завантажити</button>
+        <button id="BuyItem">Купити</button>
+        <select id="filtrBy">
+            <option value="Ordinary">Звичайно</option>
+            <option value="Alphabetically">За алфавітом</option>
+            <option value="PriceDown">За ціною (↓)</option>
+            <option value="PriceUp">За ціною (↑)</option>
+        </select>
+    </div>
+
     <h2>Додати новий продукт</h2>
-  <form id="addProductForm">
-    <label>Назва: <input type="text" id="productName" required /></label><br/>
-    <label>Ціна: <input type="number" id="productPrice" min="0" step="0.01" required /></label><br/>
-    <button id="add" value="add" type="submit">Додати</button>
-</form>
+    <div class="form-container">
+        <form id="addProductForm">
+            <label>Назва:
+                <input type="text" id="productName" required />
+            </label>
+            <label>Ціна:
+                <input type="number" id="productPrice" min="0" step="0.01" required />
+            </label>
+            <button id="add" type="submit">Додати</button>
+        </form>
+    </div>
 
-  <p id="message"></p>
+    <p id="message"></p>
+</div>
 
-  <script src="main.js"></script>
+    <h2>Мої продукти</h2>
+    <div class="table-container">
+        <table id="myProductsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Назва</th>
+                    <th>Ціна</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    
+    <script src="./JsCode/BuyButton.js"></script>
+    <script src="./JsCode/RemoveFetch.js"></script>
+    <script src="./JsCode/ClickInTboudy.js"></script>
+    <script src="./JsCode/AddFetch.js"></script>
+    <script src="./JsCode/ChangeFetch.js"></script>
+    <script src="./JsCode/LioadProdurts.js"></script>
+    <script src="./JsCode/main.js"></script>
+    <script src="./JsCode/AddNewTwentyItems.js"></script>
+    <script src="./JsCode/FiltrFetch.js"></script>
+    <script src="./JsCode/LoadBalance.js"></script>
 </body>
+
 </html>
