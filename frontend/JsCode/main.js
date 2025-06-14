@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementById("setBalanceBtn").onclick = function() {
     const num = document.getElementById('balanceInput').value;
-    fetch('http://localhost:5201/api/products/setBalance', {
+    fetch('http://localhost:5201/api/balance', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ Value: num })

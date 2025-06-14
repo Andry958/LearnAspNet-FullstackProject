@@ -1,6 +1,58 @@
 [
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.BalanceController",
+    "Method": "GetBalance",
+    "RelativePath": "api/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.BalanceController",
+    "Method": "SetBalance",
+    "RelativePath": "api/balance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Backend.Model.FilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.MyProductController",
+    "Method": "GetMyProducts",
+    "RelativePath": "api/myproducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.MyProductController",
+    "Method": "AddMyProducts",
+    "RelativePath": "api/myproducts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newProduct",
+        "Type": "Backend.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "Get",
     "RelativePath": "api/products",
     "HttpMethod": "GET",
@@ -10,7 +62,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "Post",
     "RelativePath": "api/products",
     "HttpMethod": "POST",
@@ -26,7 +78,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "Delete",
     "RelativePath": "api/products/{id}",
     "HttpMethod": "DELETE",
@@ -42,7 +94,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "Change",
     "RelativePath": "api/products/{id}/{name}/{price}",
     "HttpMethod": "PATCH",
@@ -68,7 +120,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "GetFitrList",
     "RelativePath": "api/products/Filtr",
     "HttpMethod": "POST",
@@ -77,72 +129,20 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ProductsController\u002BFilterRequest",
+        "Type": "Backend.Model.FilterRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProductsController",
+    "ContainingType": "Backend.Controllers.AllProductController",
     "Method": "GetNewitems",
     "RelativePath": "api/products/GetNewitems",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProductsController",
-    "Method": "GetBalance",
-    "RelativePath": "api/products/loadmybalance",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProductsController",
-    "Method": "GetMyProducts",
-    "RelativePath": "api/products/loadmyproducts",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProductsController",
-    "Method": "AddMyProducts",
-    "RelativePath": "api/products/myproducts",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newProduct",
-        "Type": "Backend.Model.Product",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProductsController",
-    "Method": "SetBalance",
-    "RelativePath": "api/products/setBalance",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "product",
-        "Type": "ProductsController\u002BFilterRequest",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   }
 ]

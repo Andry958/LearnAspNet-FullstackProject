@@ -1,5 +1,5 @@
 function loadBalance() {
-    fetch('http://localhost:5201/api/products/loadmybalance')
+    fetch('http://localhost:5201/api/balance')
       .then(res => res.json())
       .then(data => {
         const Balance = document.getElementById("BalanceP");

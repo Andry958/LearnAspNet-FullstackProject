@@ -15,7 +15,7 @@ document.getElementById('BuyItem').onclick = async function(e) {
 
     try {
         // Відправляємо fetch-запит на бекенд для купівлі продукту
-        const response = await fetch('http://localhost:5201/api/products/myproducts', {
+        const response = await fetch('http://localhost:5201/api/myproducts', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: Number(id), name, price: Number(price) })
