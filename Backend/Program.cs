@@ -1,8 +1,13 @@
+using Backend.Model;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
+// Program.cs
+builder.Services.AddDbContext<ProductDb>(options =>
+    options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ProductSqlServer;Trusted_Connection=True;"));
 
 // Додаємо сервіси для контролерів
 builder.Services.AddControllers();

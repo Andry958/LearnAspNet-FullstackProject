@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\user\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\user\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\controllers\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:controllers\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\user\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\user\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\controllers\\allproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:controllers\\allproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\filterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\filterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\productdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\productdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\controllers\\myproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:controllers\\myproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\controllers\\allproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:controllers\\allproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\method\\createnewtwentyitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:method\\createnewtwentyitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\model\\workwithserver\\workwithserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:model\\workwithserver\\workwithserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|c:\\users\\111\\desktop\\learn\\learnaspnet-fullstackproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB378C1-6E1C-4BFF-80D0-86DC44D0316E}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FilterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\FilterRequest.cs",
-              "RelativeDocumentMoniker": "Model\\FilterRequest.cs",
-              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\FilterRequest.cs",
-              "RelativeToolTip": "Model\\FilterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:40:11.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyProductController.cs",
-              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\MyProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MyProductController.cs",
-              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\MyProductController.cs",
-              "RelativeToolTip": "Controllers\\MyProductController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:33:53.327Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BalanceController.cs",
-              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\BalanceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BalanceController.cs",
-              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\BalanceController.cs",
-              "RelativeToolTip": "Controllers\\BalanceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Title": "UserProduct.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\UserProduct.cs",
+              "RelativeDocumentMoniker": "Model\\User\\UserProduct.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\UserProduct.cs",
+              "RelativeToolTip": "Model\\User\\UserProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:31:34.982Z",
+              "WhenOpened": "2025-06-14T13:24:49.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HelloController.cs",
-              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\HelloController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
-              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\HelloController.cs",
-              "RelativeToolTip": "Controllers\\HelloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Title": "UserDb.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\UserDb.cs",
+              "RelativeDocumentMoniker": "Model\\User\\UserDb.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\UserDb.cs",
+              "RelativeToolTip": "Model\\User\\UserDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:59:36.261Z",
+              "WhenOpened": "2025-06-14T13:18:30.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User\\User.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\User\\User.cs",
+              "RelativeToolTip": "Model\\User\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:13:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyProductController.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\MyProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MyProductController.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\MyProductController.cs",
+              "RelativeToolTip": "Controllers\\MyProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:10:43.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkWithServer.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\WorkWithServer\\WorkWithServer.cs",
+              "RelativeDocumentMoniker": "Model\\WorkWithServer\\WorkWithServer.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\WorkWithServer\\WorkWithServer.cs",
+              "RelativeToolTip": "Model\\WorkWithServer\\WorkWithServer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:04:41.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T11:23:24.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDb.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\ProductDb.cs",
+              "RelativeDocumentMoniker": "Model\\ProductDb.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\ProductDb.cs",
+              "RelativeToolTip": "Model\\ProductDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:47:27.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateNewTwentyItems.cs",
+              "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Method\\CreateNewTwentyItems.cs",
+              "RelativeDocumentMoniker": "Method\\CreateNewTwentyItems.cs",
+              "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Method\\CreateNewTwentyItems.cs",
+              "RelativeToolTip": "Method\\CreateNewTwentyItems.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T11:01:52.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AllProductController.cs",
               "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\AllProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\AllProductController.cs",
               "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Controllers\\AllProductController.cs",
               "RelativeToolTip": "Controllers\\AllProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAMwH4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:29:22.25Z"
+              "WhenOpened": "2025-06-13T09:29:22.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\Product.cs",
               "RelativeDocumentMoniker": "Model\\Product.cs",
               "ToolTip": "C:\\Users\\111\\Desktop\\Learn\\LearnAspNet-FullstackProject\\Backend\\Model\\Product.cs",
               "RelativeToolTip": "Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:51:28.415Z"
+              "WhenOpened": "2025-06-09T08:51:28.415Z",
+              "EditorCaption": ""
             }
           ]
         }
