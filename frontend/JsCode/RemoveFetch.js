@@ -14,11 +14,11 @@ document.getElementById("RemoveBtn").onclick = function(e) {
     })
     .then(res => {
         if (!res.ok) throw new Error('Помилка видалення продукту');
-        return res.text(); // або res.json() якщо щось повертає API
+        return res.text()
     })
     .then(() => {
         document.getElementById('message').textContent = 'Продукт видалено!';
-        loadProducts(); // Оновлення таблиці
+        loadProducts()
     })
     .catch(err => {
         document.getElementById('message').textContent = err.message;

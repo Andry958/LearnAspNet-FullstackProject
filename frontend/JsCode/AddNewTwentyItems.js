@@ -1,7 +1,7 @@
 document.getElementById("AddItemsBtn").onclick = function(e){
   e.preventDefault();
   const clickedButton = e.submitter; 
-  const action = clickedButton?.value;
+  const action = clickedButton.value;
    fetch(apiUrl + "/GetNewitems")
       .then(res => res.json())
       .then(data => {

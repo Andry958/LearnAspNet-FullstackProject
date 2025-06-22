@@ -6,6 +6,6 @@ function loadBalance() {
         Balance.textContent = `${data}`;
       })
       .catch(() => {
-        document.getElementById('message').textContent = 'Не вдалося завантажити продукти.';
+        document.getElementById('message').textContent = 'Не вдалося завантажити баланс.';
       });
 }

@@ -7,14 +7,12 @@ document.getElementById('BuyItem').onclick = async function(e) {
         return;
     }
 
-    // Отримуємо дані продукту з рядка
     const tds = tr.querySelectorAll('td');
     const id = tds[0].textContent;
     const name = tds[1].textContent;
     const price = tds[2].textContent;
 
     try {
-        // Відправляємо fetch-запит на бекенд для купівлі продукту
         const response = await fetch('http://localhost:5201/api/myproducts', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -28,11 +26,9 @@ document.getElementById('BuyItem').onclick = async function(e) {
         return;
       } 
 
-        // Отримуємо оновлений список куплених продуктів з відповіді
         loadBalance();
         const data = await response.json();
 
-        // Оновлюємо таблицю "Мої продукти"
         const tbody = document.querySelector('#myProductsTable tbody');
         tbody.innerHTML = '';
         data.forEach(p => {

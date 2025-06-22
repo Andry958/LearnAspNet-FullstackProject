@@ -1,12 +1,12 @@
 document.querySelector('#productsTable tbody').addEventListener('click', (event) => {
     const tr = event.target.closest('tr');
 
-    if (!tr) return; // Переконуємося, що натискання було на рядок
+    if (!tr) return; 
 
-    // Видаляємо стиль з усіх рядків
+
     document.querySelectorAll('#productsTable tbody tr').forEach(row => row.classList.remove('selected-row'));
 
-    // Додаємо стиль до вибраного рядка
+
     tr.classList.add('selected-row');
 
     const tds = tr.querySelectorAll('td');
@@ -23,12 +23,11 @@ document.querySelector('#productsTable tbody').addEventListener('click', (event)
 document.querySelector('#myProductsTable tbody').addEventListener('click', (event) => {
     const tr = event.target.closest('tr');
 
-    if (!tr) return; // Переконуємося, що натискання було на рядок
+    if (!tr) return; 
 
     // Видаляємо стиль з усіх рядків
     document.querySelectorAll('#myProductsTable tbody tr').forEach(row => row.classList.remove('selected-row'));
 
-    // Додаємо стиль до вибраного рядка
     tr.classList.add('selected-row');
 
     const tds = tr.querySelectorAll('td');
